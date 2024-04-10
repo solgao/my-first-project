@@ -3,41 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <title>Meteology App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>London</h1>
-        <p>
-          Tuesday 10:24, scattered clouds
-          <br />
-          Humidity: 66%, Wind:3.13km/h
-        </p>
-      </div>
-      <div>🌤15°C</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>London</h1>
+          <p>
+            Tuesday 10:24, scattered clouds
+            <br />
+            Humidity: 66%, Wind:3.13km/h
+          </p>
+        </div>
+        <div>🌤15°C</div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/solgao" target="_blank">
-        Gaopalelwe Lee Solomon</a
-      >
-      , is open-sourced on
-      <a href="https://github.com/solgao/my-first-project" target="_blank">
-        Github</a
-      >
-      and
+      <footer>
+        This project was coded by
+        <a href="https://github.com/solgao" target="_blank">
+          Gaopalelwe Lee Solomon</a
+        >
+        , is open-sourced on
+        <a href="https://github.com/solgao/my-first-project" target="_blank">
+          Github</a
+        >
+        and
 
-      <a href="https://main--meteology-app.netlify.app/" target="_blank">
-        hosted on Netlify</a
-      >
-    </footer>
+        <a href="https://main--meteology-app.netlify.app/" target="_blank">
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
