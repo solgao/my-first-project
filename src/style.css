@@ -21,6 +21,9 @@ header {
   padding: 0 0 30px 0;
 }
 
+.search-form {
+  text-align: end;
+}
 .search-form-input {
   background-color: white;
   border: none;
@@ -46,11 +49,13 @@ main {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+  margin-right: 80px;
+  margin-left: 20px;
 }
 
 .weather-app-city {
   margin: 0;
-  font-size: 38px;
+  font-size: 48px;
   line-height: 48px;
 }
 
@@ -67,11 +72,12 @@ main {
 
 .weather-app-temperature-container {
   display: flex;
+  text-align: center;
 }
 
 .weather-app-icon {
-  width: 56px;
-  height: 70px;
+  width: 100px;
+  height: 80px;
 }
 
 .weather-app-temperature {
